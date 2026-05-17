@@ -11,6 +11,14 @@
 
 </div>
 
+## Gameplay Preview
+
+<div align="center">
+
+![Hand Focus Fruit Ninja gameplay demo](public/assets/Demo.gif)
+
+</div>
+
 ## Project Flow
 
 ```text
@@ -59,4 +67,10 @@ npm.cmd run dev
 ```powershell
 npm.cmd run build
 ```
+
+## License
+
+Personal use is free with credit. Commercial use requires a paid license.
+
+See [LICENSE.md](LICENSE.md) for details.
 
