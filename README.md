@@ -21,26 +21,14 @@
 
 ## Project Flow
 
-```text
-Camera Permission
-        |
-        v
-Hand Tracking Loads
-        |
-        v
-Open Palm Countdown
-        |
-        v
-Slice Fruit With Index Finger
-        |
-        v
-Avoid Bombs And Collect Points
-        |
-        v
-Score + Privacy Reveal
-        |
-        v
-Continue Back To Main Screen
+```mermaid
+flowchart TD
+    A[Camera Permission] --> B[Hand Tracking Loads]
+    B --> C[Open Palm Countdown]
+    C --> D[Slice Fruit With Index Finger]
+    D --> E[Avoid Bombs And Collect Points]
+    E --> F[Score + Privacy Reveal]
+    F --> G[Continue Back To Main Screen]
 ```
 
 ## Stack
