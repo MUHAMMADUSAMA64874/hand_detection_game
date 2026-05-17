@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hand Focus Fruit Ninja</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23020305'/%3E%3Ccircle cx='32' cy='32' r='17' fill='%2373ff95'/%3E%3Cpath d='M18 42 46 18' stroke='%23ffe66a' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <style>
+      body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+    </style>
+    <script>
+      document.addEventListener('contextmenu', e => e.preventDefault());
+      document.addEventListener('keydown', e => {
+        if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S')) e.preventDefault();
+        if (e.key === 'F12') e.preventDefault();
+      });
+    </script>
+  </head>
+  <body>
+    <main id="app">
+      <video id="camera" playsinline muted></video>
+      <canvas id="game" width="1280" height="720" aria-label="Hand controlled fruit slicing game"></canvas>
+      <button id="continue-button" class="continue-button hidden" type="button">Continue</button>
+      <section id="permission-panel" class="permission-panel loading">
+        <div class="fruit-field" aria-hidden="true">
+          <span class="speed-streak streak-a"></span>
+          <span class="speed-streak streak-b"></span>
+          <span class="speed-streak streak-c"></span>
+          <img class="flying-fruit apple fruit-a" src="/assets/fruit_apple.png" alt="" />
+          <img class="flying-fruit orange fruit-b" src="/assets/svg/fruit_orange.svg" alt="" />
+          <img class="flying-fruit watermelon fruit-c" src="/assets/fruit_watermelon.png" alt="" />
+          <img class="flying-fruit apple fruit-d" src="/assets/fruit_apple.png" alt="" />
+          <img class="flying-fruit orange fruit-e" src="/assets/svg/fruit_orange.svg" alt="" />
+          <img class="flying-fruit watermelon fruit-f" src="/assets/fruit_watermelon.png" alt="" />
+          <img class="showcase-fruit big-apple" src="/assets/fruit_apple.png" alt="" />
+          <img class="showcase-fruit big-orange" src="/assets/svg/fruit_orange.svg" alt="" />
+          <img class="showcase-fruit big-red-apple" src="/assets/fruit_apple.png" alt="" />
+          <span class="sparkle sparkle-a"></span>
+          <span class="sparkle sparkle-b"></span>
+        </div>
+        <div class="start-copy">
+          <div class="brand">Hand Focus Fruit Ninja</div>
+          <h1>Play with hand gestures</h1>
+          <p>Slice fruit with one index finger. Camera permission is used for local hand tracking, and there is a surprise reveal at the end.</p>
+          <p class="plays-copy">Plays on this device: <strong id="plays-count">0</strong></p>
+          <div class="model-loader" aria-live="polite">
+            <span class="loader-ring"></span>
+            <span>Preparing hand and face tracking...</span>
+          </div>
+          <div class="score-strip" aria-label="Fruit score values">
+            <div class="score-chip">
+              <img src="/assets/fruit_apple.png" alt="" />
+              <span>Apple</span>
+              <strong>10 pts</strong>
+            </div>
+            <div class="score-chip">
+              <img src="/assets/svg/fruit_orange.svg" alt="" />
+              <span>Orange</span>
+              <strong>20 pts</strong>
+            </div>
+            <div class="score-chip">
+              <img src="/assets/fruit_watermelon.png" alt="" />
+              <span>Watermelon</span>
+              <strong>30 pts</strong>
+            </div>
+          </div>
+          <button id="start-button" type="button">Start Camera</button>
+          <span id="status">Loading trackers...</span>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

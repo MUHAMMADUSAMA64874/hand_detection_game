@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="orange fruit">
+  <defs>
+    <pattern id="pores" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.5" fill="#e65100" opacity="0.4"/>
+      <circle cx="7" cy="6" r="0.5" fill="#e65100" opacity="0.4"/>
+    </pattern>
+    <radialGradient id="orangeGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#ef6c00"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="55" r="42" fill="url(#orangeGrad)"/>
+  <circle cx="50" cy="55" r="42" fill="url(#pores)"/>
+  <path d="M47 15 Q50 12 53 15" stroke="#1b5e20" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M30 40 Q25 50 35 65" stroke="white" stroke-width="2" fill="none" opacity="0.2" stroke-linecap="round"/>
+</svg>
