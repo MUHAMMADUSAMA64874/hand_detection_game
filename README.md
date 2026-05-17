@@ -60,8 +60,3 @@ npm.cmd run dev
 npm.cmd run build
 ```
 
-## More
-
-- [Project description](PROJECT_DESCRIPTION.md)
-- [LinkedIn post](LINKEDIN_POST.md)
-
