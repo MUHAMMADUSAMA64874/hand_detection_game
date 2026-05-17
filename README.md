@@ -9,6 +9,8 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand_Tracking-73ff95?style=for-the-badge)
 ![Camera API](https://img.shields.io/badge/Camera_API-Browser-8fb3ff?style=for-the-badge)
 
+[Play Live Demo](https://handdetectiongamecamera.vercel.app/)
+
 </div>
 
 ## Gameplay Preview
