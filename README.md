@@ -1,15 +1,22 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=30&duration=2600&pause=700&color=73FF95&center=true&vCenter=true&width=900&lines=Hand+Focus+Fruit+Ninja;Slice+fruit+with+your+index+finger;Camera+permission+awareness+demo)
+<img
+  src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=30&duration=2600&pause=700&color=73FF95&center=true&vCenter=true&width=900&height=70&lines=Hand+Focus+Fruit+Ninja;Slice+fruit+with+your+index+finger;Camera+permission+awareness+demo"
+  alt="Typing SVG"
+/>
 
-# Hand Focus Fruit Ninja Web
+<h1>Hand Focus Fruit Ninja Web</h1>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-Canvas-f7df1e?style=for-the-badge&logo=javascript&logoColor=111)
-![Vite](https://img.shields.io/badge/Vite-Web_App-646cff?style=for-the-badge&logo=vite&logoColor=fff)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand_Tracking-73ff95?style=for-the-badge)
-![Camera API](https://img.shields.io/badge/Camera_API-Browser-8fb3ff?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-Canvas-f7df1e?style=for-the-badge&logo=javascript&logoColor=111" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vite-Web_App-646cff?style=for-the-badge&logo=vite&logoColor=fff" alt="Vite" />
+  <img src="https://img.shields.io/badge/MediaPipe-Hand_Tracking-73ff95?style=for-the-badge" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/Camera_API-Browser-8fb3ff?style=for-the-badge" alt="Camera API" />
+</p>
 
-[Play Live Demo](https://handdetectiongamecamera.vercel.app/)
+<p>
+  <a href="https://handdetectiongamecamera.vercel.app/">Play Live Demo</a>
+</p>
 
 </div>
 
@@ -17,7 +24,7 @@
 
 <div align="center">
 
-![Hand Focus Fruit Ninja gameplay demo](public/assets/Demo.gif)
+<img src="public/assets/Demo.gif" alt="Hand Focus Fruit Ninja gameplay demo" />
 
 </div>
 
